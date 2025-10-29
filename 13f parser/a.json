@@ -1,0 +1,1712 @@
+[
+    {
+        "issuer": "ALLY FINL INC",
+        "titleOfClass": "COM",
+        "cusip": "02005N100",
+        "valueUSD": "495431341",
+        "shares": 12719675,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4",
+        "votingAuthority": {
+            "sole": 12719675,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "ALLY FINL INC",
+        "titleOfClass": "COM",
+        "cusip": "02005N100",
+        "valueUSD": "109210931",
+        "shares": 2803875,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "2,4,11",
+        "votingAuthority": {
+            "sole": 2803875,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "ALLY FINL INC",
+        "titleOfClass": "COM",
+        "cusip": "02005N100",
+        "valueUSD": "164688390",
+        "shares": 4228200,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,5",
+        "votingAuthority": {
+            "sole": 4228200,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "ALLY FINL INC",
+        "titleOfClass": "COM",
+        "cusip": "02005N100",
+        "valueUSD": "122186150",
+        "shares": 3137000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 3137000,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "ALLY FINL INC",
+        "titleOfClass": "COM",
+        "cusip": "02005N100",
+        "valueUSD": "188371938",
+        "shares": 4836250,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,10",
+        "votingAuthority": {
+            "sole": 4836250,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "ALLY FINL INC",
+        "titleOfClass": "COM",
+        "cusip": "02005N100",
+        "valueUSD": "49661250",
+        "shares": 1275000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,11",
+        "votingAuthority": {
+            "sole": 1275000,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "AMAZON COM INC",
+        "titleOfClass": "COM",
+        "cusip": "023135106",
+        "valueUSD": "1694568360",
+        "shares": 7724000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4",
+        "votingAuthority": {
+            "sole": 7724000,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "AMAZON COM INC",
+        "titleOfClass": "COM",
+        "cusip": "023135106",
+        "valueUSD": "499331640",
+        "shares": 2276000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 2276000,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "AMERICAN EXPRESS CO",
+        "titleOfClass": "COM",
+        "cusip": "025816109",
+        "valueUSD": "366808499",
+        "shares": 1149942,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4",
+        "votingAuthority": {
+            "sole": 1149942,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "AMERICAN EXPRESS CO",
+        "titleOfClass": "COM",
+        "cusip": "025816109",
+        "valueUSD": "47547492134",
+        "shares": 149061045,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,11",
+        "votingAuthority": {
+            "sole": 149061045,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "AMERICAN EXPRESS CO",
+        "titleOfClass": "COM",
+        "cusip": "025816109",
+        "valueUSD": "446480453",
+        "shares": 1399713,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,13",
+        "votingAuthority": {
+            "sole": 1399713,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "APPLE INC",
+        "titleOfClass": "COM",
+        "cusip": "037833100",
+        "valueUSD": "141977640",
+        "shares": 692000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4",
+        "votingAuthority": {
+            "sole": 692000,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "APPLE INC",
+        "titleOfClass": "COM",
+        "cusip": "037833100",
+        "valueUSD": "787852800",
+        "shares": 3840000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "1,2,4,11",
+        "votingAuthority": {
+            "sole": 3840000,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "APPLE INC",
+        "titleOfClass": "COM",
+        "cusip": "037833100",
+        "valueUSD": "6975780",
+        "shares": 34000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "2,4,11",
+        "votingAuthority": {
+            "sole": 34000,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "APPLE INC",
+        "titleOfClass": "COM",
+        "cusip": "037833100",
+        "valueUSD": "7124323080",
+        "shares": 34724000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,5",
+        "votingAuthority": {
+            "sole": 34724000,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "APPLE INC",
+        "titleOfClass": "COM",
+        "cusip": "037833100",
+        "valueUSD": "558883080",
+        "shares": 2724000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,6",
+        "votingAuthority": {
+            "sole": 2724000,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "APPLE INC",
+        "titleOfClass": "COM",
+        "cusip": "037833100",
+        "valueUSD": "3186700440",
+        "shares": 15532000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,7",
+        "votingAuthority": {
+            "sole": 15532000,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "APPLE INC",
+        "titleOfClass": "COM",
+        "cusip": "037833100",
+        "valueUSD": "12626774848",
+        "shares": 61542988,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 61542988,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "APPLE INC",
+        "titleOfClass": "COM",
+        "cusip": "037833100",
+        "valueUSD": "1478044680",
+        "shares": 7204000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,5,9",
+        "votingAuthority": {
+            "sole": 7204000,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "APPLE INC",
+        "titleOfClass": "COM",
+        "cusip": "037833100",
+        "valueUSD": "2969220240",
+        "shares": 14472000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,10",
+        "votingAuthority": {
+            "sole": 14472000,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "APPLE INC",
+        "titleOfClass": "COM",
+        "cusip": "037833100",
+        "valueUSD": "27235704452",
+        "shares": 132747012,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,11",
+        "votingAuthority": {
+            "sole": 132747012,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "APPLE INC",
+        "titleOfClass": "COM",
+        "cusip": "037833100",
+        "valueUSD": "556421040",
+        "shares": 2712000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,12",
+        "votingAuthority": {
+            "sole": 2712000,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "APPLE INC",
+        "titleOfClass": "COM",
+        "cusip": "037833100",
+        "valueUSD": "774721920",
+        "shares": 3776000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,14",
+        "votingAuthority": {
+            "sole": 3776000,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "ATLANTA BRAVES HLDGS INC",
+        "titleOfClass": "COM SER C",
+        "cusip": "047726302",
+        "valueUSD": "5061309",
+        "shares": 108217,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4",
+        "votingAuthority": {
+            "sole": 108217,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "ATLANTA BRAVES HLDGS INC",
+        "titleOfClass": "COM SER C",
+        "cusip": "047726302",
+        "valueUSD": "4530470",
+        "shares": 96867,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "2,4,11",
+        "votingAuthority": {
+            "sole": 96867,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "ATLANTA BRAVES HLDGS INC",
+        "titleOfClass": "COM SER C",
+        "cusip": "047726302",
+        "valueUSD": "698229",
+        "shares": 14929,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 14929,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "ATLANTA BRAVES HLDGS INC",
+        "titleOfClass": "COM SER C",
+        "cusip": "047726302",
+        "valueUSD": "169869",
+        "shares": 3632,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,11",
+        "votingAuthority": {
+            "sole": 3632,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "BANK AMER CORP",
+        "titleOfClass": "COM",
+        "cusip": "060505104",
+        "valueUSD": "185494400",
+        "shares": 3920000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4",
+        "votingAuthority": {
+            "sole": 3920000,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "BANK AMER CORP",
+        "titleOfClass": "COM",
+        "cusip": "060505104",
+        "valueUSD": "563108000",
+        "shares": 11900000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "1,2,4,11",
+        "votingAuthority": {
+            "sole": 11900000,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "BANK AMER CORP",
+        "titleOfClass": "COM",
+        "cusip": "060505104",
+        "valueUSD": "6885060",
+        "shares": 145500,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "2,4,11",
+        "votingAuthority": {
+            "sole": 145500,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "BANK AMER CORP",
+        "titleOfClass": "COM",
+        "cusip": "060505104",
+        "valueUSD": "5672810325",
+        "shares": 119881875,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "3,4,5",
+        "votingAuthority": {
+            "sole": 119881875,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "BANK AMER CORP",
+        "titleOfClass": "COM",
+        "cusip": "060505104",
+        "valueUSD": "99372000",
+        "shares": 2100000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,6",
+        "votingAuthority": {
+            "sole": 2100000,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "BANK AMER CORP",
+        "titleOfClass": "COM",
+        "cusip": "060505104",
+        "valueUSD": "993720000",
+        "shares": 21000000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,7",
+        "votingAuthority": {
+            "sole": 21000000,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "BANK AMER CORP",
+        "titleOfClass": "COM",
+        "cusip": "060505104",
+        "valueUSD": "14707056000",
+        "shares": 310800000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 310800000,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "BANK AMER CORP",
+        "titleOfClass": "COM",
+        "cusip": "060505104",
+        "valueUSD": "5949070400",
+        "shares": 125720000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,11",
+        "votingAuthority": {
+            "sole": 125720000,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "BANK AMER CORP",
+        "titleOfClass": "COM",
+        "cusip": "060505104",
+        "valueUSD": "463736000",
+        "shares": 9800000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,14",
+        "votingAuthority": {
+            "sole": 9800000,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "CAPITAL ONE FINL CORP",
+        "titleOfClass": "COM",
+        "cusip": "14040H105",
+        "valueUSD": "412586958",
+        "shares": 1939213,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "2,4,11",
+        "votingAuthority": {
+            "sole": 1939213,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "CAPITAL ONE FINL CORP",
+        "titleOfClass": "COM",
+        "cusip": "14040H105",
+        "valueUSD": "653978922",
+        "shares": 3073787,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,5",
+        "votingAuthority": {
+            "sole": 3073787,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "CAPITAL ONE FINL CORP",
+        "titleOfClass": "COM",
+        "cusip": "14040H105",
+        "valueUSD": "454668120",
+        "shares": 2137000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,11",
+        "votingAuthority": {
+            "sole": 2137000,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "CHARTER COMMUNICATIONS INC N",
+        "titleOfClass": "CL A",
+        "cusip": "16119P108",
+        "valueUSD": "433699170",
+        "shares": 1060882,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 1060882,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "CHEVRON CORP NEW",
+        "titleOfClass": "COM",
+        "cusip": "166764100",
+        "valueUSD": "494615203",
+        "shares": 3454258,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "2,4,11",
+        "votingAuthority": {
+            "sole": 3454258,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "CHEVRON CORP NEW",
+        "titleOfClass": "COM",
+        "cusip": "166764100",
+        "valueUSD": "2514989303",
+        "shares": 17564001,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,5",
+        "votingAuthority": {
+            "sole": 17564001,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "CHEVRON CORP NEW",
+        "titleOfClass": "COM",
+        "cusip": "166764100",
+        "valueUSD": "8791866",
+        "shares": 61400,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,6",
+        "votingAuthority": {
+            "sole": 61400,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "CHEVRON CORP NEW",
+        "titleOfClass": "COM",
+        "cusip": "166764100",
+        "valueUSD": "299553480",
+        "shares": 2092000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,7",
+        "votingAuthority": {
+            "sole": 2092000,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "CHEVRON CORP NEW",
+        "titleOfClass": "COM",
+        "cusip": "166764100",
+        "valueUSD": "4656139014",
+        "shares": 32517208,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 32517208,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "CHEVRON CORP NEW",
+        "titleOfClass": "COM",
+        "cusip": "166764100",
+        "valueUSD": "409294296",
+        "shares": 2858400,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,5,9",
+        "votingAuthority": {
+            "sole": 2858400,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "CHEVRON CORP NEW",
+        "titleOfClass": "COM",
+        "cusip": "166764100",
+        "valueUSD": "8817572185",
+        "shares": 61579525,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,11",
+        "votingAuthority": {
+            "sole": 61579525,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "CHEVRON CORP NEW",
+        "titleOfClass": "COM",
+        "cusip": "166764100",
+        "valueUSD": "277502220",
+        "shares": 1938000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,14",
+        "votingAuthority": {
+            "sole": 1938000,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "COCA COLA CO",
+        "titleOfClass": "COM",
+        "cusip": "191216100",
+        "valueUSD": "56600000",
+        "shares": 800000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4",
+        "votingAuthority": {
+            "sole": 800000,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "COCA COLA CO",
+        "titleOfClass": "COM",
+        "cusip": "191216100",
+        "valueUSD": "26281573",
+        "shares": 371471,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "1,2,4,11",
+        "votingAuthority": {
+            "sole": 371471,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "COCA COLA CO",
+        "titleOfClass": "COM",
+        "cusip": "191216100",
+        "valueUSD": "6013750",
+        "shares": 85000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "2,4,11",
+        "votingAuthority": {
+            "sole": 85000,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "COCA COLA CO",
+        "titleOfClass": "COM",
+        "cusip": "191216100",
+        "valueUSD": "5680036400",
+        "shares": 80283200,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,5",
+        "votingAuthority": {
+            "sole": 80283200,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "COCA COLA CO",
+        "titleOfClass": "COM",
+        "cusip": "191216100",
+        "valueUSD": "129048000",
+        "shares": 1824000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,6",
+        "votingAuthority": {
+            "sole": 1824000,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "COCA COLA CO",
+        "titleOfClass": "COM",
+        "cusip": "191216100",
+        "valueUSD": "1019592400",
+        "shares": 14411200,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 14411200,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "COCA COLA CO",
+        "titleOfClass": "COM",
+        "cusip": "191216100",
+        "valueUSD": "1060570800",
+        "shares": 14990400,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,10",
+        "votingAuthority": {
+            "sole": 14990400,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "COCA COLA CO",
+        "titleOfClass": "COM",
+        "cusip": "191216100",
+        "valueUSD": "20002633077",
+        "shares": 282722729,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,11",
+        "votingAuthority": {
+            "sole": 282722729,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "COCA COLA CO",
+        "titleOfClass": "COM",
+        "cusip": "191216100",
+        "valueUSD": "251304000",
+        "shares": 3552000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,12",
+        "votingAuthority": {
+            "sole": 3552000,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "COCA COLA CO",
+        "titleOfClass": "COM",
+        "cusip": "191216100",
+        "valueUSD": "67920000",
+        "shares": 960000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,13",
+        "votingAuthority": {
+            "sole": 960000,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "CONSTELLATION BRANDS INC",
+        "titleOfClass": "CL A",
+        "cusip": "21036P108",
+        "valueUSD": "65072000",
+        "shares": 400000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4",
+        "votingAuthority": {
+            "sole": 400000,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "CONSTELLATION BRANDS INC",
+        "titleOfClass": "CL A",
+        "cusip": "21036P108",
+        "valueUSD": "2114840000",
+        "shares": 13000000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 13000000,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "D R HORTON INC",
+        "titleOfClass": "COM",
+        "cusip": "23331A109",
+        "valueUSD": "191491322",
+        "shares": 1485350,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,11",
+        "votingAuthority": {
+            "sole": 1485350,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "DAVITA INC",
+        "titleOfClass": "COM",
+        "cusip": "23918K108",
+        "valueUSD": "2369240936",
+        "shares": 16632088,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4",
+        "votingAuthority": {
+            "sole": 16632088,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "DAVITA INC",
+        "titleOfClass": "COM",
+        "cusip": "23918K108",
+        "valueUSD": "2445076330",
+        "shares": 17164453,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 17164453,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "DIAGEO P L C",
+        "titleOfClass": "SPON ADR NEW",
+        "cusip": "25243Q205",
+        "valueUSD": "22966310",
+        "shares": 227750,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,7",
+        "votingAuthority": {
+            "sole": 227750,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "DOMINOS PIZZA INC",
+        "titleOfClass": "COM",
+        "cusip": "25754A201",
+        "valueUSD": "1186820921",
+        "shares": 2633868,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 2633868,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "HEICO CORP NEW",
+        "titleOfClass": "CL A",
+        "cusip": "422806208",
+        "valueUSD": "334980855",
+        "shares": 1294612,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 1294612,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "JEFFERIES FINL GROUP INC",
+        "titleOfClass": "COM",
+        "cusip": "47233W109",
+        "valueUSD": "23711287",
+        "shares": 433558,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,10",
+        "votingAuthority": {
+            "sole": 433558,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "KRAFT HEINZ CO",
+        "titleOfClass": "COM",
+        "cusip": "500754106",
+        "valueUSD": "8407891001",
+        "shares": 325634818,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4",
+        "votingAuthority": {
+            "sole": 325634818,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "KROGER CO",
+        "titleOfClass": "COM",
+        "cusip": "501044101",
+        "valueUSD": "1191226566",
+        "shares": 16607090,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4",
+        "votingAuthority": {
+            "sole": 16607090,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "KROGER CO",
+        "titleOfClass": "COM",
+        "cusip": "501044101",
+        "valueUSD": "55126729",
+        "shares": 768531,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "1,2,4,11",
+        "votingAuthority": {
+            "sole": 768531,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "KROGER CO",
+        "titleOfClass": "COM",
+        "cusip": "501044101",
+        "valueUSD": "384983446",
+        "shares": 5367119,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "2,4,11",
+        "votingAuthority": {
+            "sole": 5367119,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "KROGER CO",
+        "titleOfClass": "COM",
+        "cusip": "501044101",
+        "valueUSD": "1955163260",
+        "shares": 27257260,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,11",
+        "votingAuthority": {
+            "sole": 27257260,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "LAMAR ADVERTISING CO NEW",
+        "titleOfClass": "CL A",
+        "cusip": "512816109",
+        "valueUSD": "141931370",
+        "shares": 1169507,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 1169507,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "LENNAR CORP",
+        "titleOfClass": "CL A",
+        "cusip": "526057104",
+        "valueUSD": "779689116",
+        "shares": 7048993,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,11",
+        "votingAuthority": {
+            "sole": 7048993,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "LENNAR CORP",
+        "titleOfClass": "CL B",
+        "cusip": "526057302",
+        "valueUSD": "19042883",
+        "shares": 180930,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,11",
+        "votingAuthority": {
+            "sole": 180930,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "LIBERTY MEDIA CORP DEL",
+        "titleOfClass": "COM LBTY LIV S C",
+        "cusip": "531229722",
+        "valueUSD": "295388475",
+        "shares": 3639582,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4",
+        "votingAuthority": {
+            "sole": 3639582,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "LIBERTY MEDIA CORP DEL",
+        "titleOfClass": "COM LBTY LIV S C",
+        "cusip": "531229722",
+        "valueUSD": "11618622",
+        "shares": 143157,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "2,4,11",
+        "votingAuthority": {
+            "sole": 143157,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "LIBERTY MEDIA CORP DEL",
+        "titleOfClass": "COM LBTY LIV S C",
+        "cusip": "531229722",
+        "valueUSD": "448786069",
+        "shares": 5529646,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 5529646,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "LIBERTY MEDIA CORP DEL",
+        "titleOfClass": "COM LBTY LIV S C",
+        "cusip": "531229722",
+        "valueUSD": "13198239",
+        "shares": 162620,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,10",
+        "votingAuthority": {
+            "sole": 162620,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "LIBERTY MEDIA CORP DEL",
+        "titleOfClass": "COM LBTY LIV S C",
+        "cusip": "531229722",
+        "valueUSD": "117085961",
+        "shares": 1442656,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,11",
+        "votingAuthority": {
+            "sole": 1442656,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "LIBERTY MEDIA CORP DEL",
+        "titleOfClass": "COM LBTY LIV S A",
+        "cusip": "531229748",
+        "valueUSD": "80409757",
+        "shares": 1011698,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4",
+        "votingAuthority": {
+            "sole": 1011698,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "LIBERTY MEDIA CORP DEL",
+        "titleOfClass": "COM LBTY LIV S A",
+        "cusip": "531229748",
+        "valueUSD": "261073917",
+        "shares": 3284775,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 3284775,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "LIBERTY MEDIA CORP DEL",
+        "titleOfClass": "COM LBTY LIV S A",
+        "cusip": "531229748",
+        "valueUSD": "18546420",
+        "shares": 233347,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,10",
+        "votingAuthority": {
+            "sole": 233347,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "LIBERTY MEDIA CORP DEL",
+        "titleOfClass": "COM LBTY LIV S A",
+        "cusip": "531229748",
+        "valueUSD": "36303921",
+        "shares": 456768,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,11",
+        "votingAuthority": {
+            "sole": 456768,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "LIBERTY MEDIA CORP DEL",
+        "titleOfClass": "COM SER C FRMLA",
+        "cusip": "531229854",
+        "valueUSD": "302332608",
+        "shares": 2893135,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "2,4,11",
+        "votingAuthority": {
+            "sole": 2893135,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "LIBERTY MEDIA CORP DEL",
+        "titleOfClass": "COM SER C FRMLA",
+        "cusip": "531229854",
+        "valueUSD": "13106390",
+        "shares": 125420,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,11",
+        "votingAuthority": {
+            "sole": 125420,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "LOUISIANA PAC CORP",
+        "titleOfClass": "COM",
+        "cusip": "546347105",
+        "valueUSD": "113496825",
+        "shares": 1319884,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4",
+        "votingAuthority": {
+            "sole": 1319884,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "LOUISIANA PAC CORP",
+        "titleOfClass": "COM",
+        "cusip": "546347105",
+        "valueUSD": "373618725",
+        "shares": 4344909,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 4344909,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "MASTERCARD INC",
+        "titleOfClass": "CL A",
+        "cusip": "57636Q104",
+        "valueUSD": "2240256977",
+        "shares": 3986648,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 3986648,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "MOODYS CORP",
+        "titleOfClass": "COM",
+        "cusip": "615369105",
+        "valueUSD": "36164639",
+        "shares": 72100,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "1,2,4,11",
+        "votingAuthority": {
+            "sole": 72100,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "MOODYS CORP",
+        "titleOfClass": "COM",
+        "cusip": "615369105",
+        "valueUSD": "6006002546",
+        "shares": 11973928,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 11973928,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "MOODYS CORP",
+        "titleOfClass": "COM",
+        "cusip": "615369105",
+        "valueUSD": "6331946763",
+        "shares": 12623750,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,11",
+        "votingAuthority": {
+            "sole": 12623750,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "NVR INC",
+        "titleOfClass": "COM",
+        "cusip": "62944T105",
+        "valueUSD": "82069454",
+        "shares": 11112,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,5",
+        "votingAuthority": {
+            "sole": 11112,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "NUCOR CORP",
+        "titleOfClass": "COM",
+        "cusip": "670346105",
+        "valueUSD": "856792068",
+        "shares": 6614112,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,11",
+        "votingAuthority": {
+            "sole": 6614112,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "OCCIDENTAL PETE CORP",
+        "titleOfClass": "COM",
+        "cusip": "674599105",
+        "valueUSD": "11130189516",
+        "shares": 264941431,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,11",
+        "votingAuthority": {
+            "sole": 264941431,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "POOL CORP",
+        "titleOfClass": "COM",
+        "cusip": "73278L105",
+        "valueUSD": "113677200",
+        "shares": 390000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4",
+        "votingAuthority": {
+            "sole": 390000,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "POOL CORP",
+        "titleOfClass": "COM",
+        "cusip": "73278L105",
+        "valueUSD": "894518600",
+        "shares": 3068885,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 3068885,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "SIRIUS XM HOLDINGS INC",
+        "titleOfClass": "COMMON STOCK",
+        "cusip": "829933100",
+        "valueUSD": "367172923",
+        "shares": 15984890,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4",
+        "votingAuthority": {
+            "sole": 15984890,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "SIRIUS XM HOLDINGS INC",
+        "titleOfClass": "COMMON STOCK",
+        "cusip": "829933100",
+        "valueUSD": "2207881476",
+        "shares": 96120221,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 96120221,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "SIRIUS XM HOLDINGS INC",
+        "titleOfClass": "COMMON STOCK",
+        "cusip": "829933100",
+        "valueUSD": "30469498",
+        "shares": 1326491,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,10",
+        "votingAuthority": {
+            "sole": 1326491,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "SIRIUS XM HOLDINGS INC",
+        "titleOfClass": "COMMON STOCK",
+        "cusip": "829933100",
+        "valueUSD": "145746717",
+        "shares": 6345090,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,11",
+        "votingAuthority": {
+            "sole": 6345090,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "UNITEDHEALTH GROUP INC",
+        "titleOfClass": "COM",
+        "cusip": "91324P102",
+        "valueUSD": "609870153",
+        "shares": 1954900,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "2,4,11",
+        "votingAuthority": {
+            "sole": 1954900,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "UNITEDHEALTH GROUP INC",
+        "titleOfClass": "COM",
+        "cusip": "91324P102",
+        "valueUSD": "962322628",
+        "shares": 3084664,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,10",
+        "votingAuthority": {
+            "sole": 3084664,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "VERISIGN INC",
+        "titleOfClass": "COM",
+        "cusip": "92343E102",
+        "valueUSD": "1522827094",
+        "shares": 5272947,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4",
+        "votingAuthority": {
+            "sole": 5272947,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "VERISIGN INC",
+        "titleOfClass": "COM",
+        "cusip": "92343E102",
+        "valueUSD": "2315290250",
+        "shares": 8016933,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 8016933,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "VISA INC",
+        "titleOfClass": "COM CL A",
+        "cusip": "92826C839",
+        "valueUSD": "2946013173",
+        "shares": 8297460,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 8297460,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "ALLEGION PLC",
+        "titleOfClass": "ORD SHS",
+        "cusip": "G0176J109",
+        "valueUSD": "112432768",
+        "shares": 780133,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 780133,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "AON PLC",
+        "titleOfClass": "SHS CL A",
+        "cusip": "G0403H108",
+        "valueUSD": "821975040",
+        "shares": 2304000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4",
+        "votingAuthority": {
+            "sole": 2304000,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "AON PLC",
+        "titleOfClass": "SHS CL A",
+        "cusip": "G0403H108",
+        "valueUSD": "15628229",
+        "shares": 43806,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "2,4,11",
+        "votingAuthority": {
+            "sole": 43806,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "AON PLC",
+        "titleOfClass": "SHS CL A",
+        "cusip": "G0403H108",
+        "valueUSD": "625112731",
+        "shares": 1752194,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,11",
+        "votingAuthority": {
+            "sole": 1752194,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "LIBERTY LATIN AMERICA LTD",
+        "titleOfClass": "COM CL A",
+        "cusip": "G9001E102",
+        "valueUSD": "6134203",
+        "shares": 1005607,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4",
+        "votingAuthority": {
+            "sole": 1005607,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "LIBERTY LATIN AMERICA LTD",
+        "titleOfClass": "COM CL A",
+        "cusip": "G9001E102",
+        "valueUSD": "9913629",
+        "shares": 1625185,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 1625185,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "LIBERTY LATIN AMERICA LTD",
+        "titleOfClass": "COM CL C",
+        "cusip": "G9001E128",
+        "valueUSD": "7986604",
+        "shares": 1284020,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 1284020,
+            "shared": 0,
+            "none": 0
+        }
+    },
+    {
+        "issuer": "CHUBB LIMITED",
+        "titleOfClass": "COM",
+        "cusip": "H1467J104",
+        "valueUSD": "7832227900",
+        "shares": 27033784,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,11",
+        "votingAuthority": {
+            "sole": 27033784,
+            "shared": 0,
+            "none": 0
+        }
+    }
+]

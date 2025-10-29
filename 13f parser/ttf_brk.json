@@ -1,0 +1,740 @@
+[
+    {
+        "issuer": "ALLY FINL INC",
+        "titleOfClass": "COM",
+        "cusip": "02005N100",
+        "valueUSD": "1129550000",
+        "shares": 29000000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "2,4,5,8,10,11",
+        "votingAuthority": {
+            "sole": 29000000,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Financial Services",
+        "industry": "Credit Services",
+        "gicsSectorCode": 40
+    },
+    {
+        "issuer": "AMAZON COM INC",
+        "titleOfClass": "COM",
+        "cusip": "023135106",
+        "valueUSD": "2193900000",
+        "shares": 10000000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 10000000,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Consumer Cyclical",
+        "industry": "Internet Retail",
+        "gicsSectorCode": 25
+    },
+    {
+        "issuer": "AMERICAN EXPRESS CO",
+        "titleOfClass": "COM",
+        "cusip": "025816109",
+        "valueUSD": "48360781086",
+        "shares": 151610700,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,11,13",
+        "votingAuthority": {
+            "sole": 151610700,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Financial Services",
+        "industry": "Credit Services",
+        "gicsSectorCode": 40
+    },
+    {
+        "issuer": "APPLE INC",
+        "titleOfClass": "COM",
+        "cusip": "037833100",
+        "valueUSD": "57447600000",
+        "shares": 280000000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "1,2,4,5,6,7,8,9,10,11,12,14",
+        "votingAuthority": {
+            "sole": 280000000,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Technology",
+        "industry": "Consumer Electronics",
+        "gicsSectorCode": 45
+    },
+    {
+        "issuer": "ATLANTA BRAVES HLDGS INC",
+        "titleOfClass": "COM SER C",
+        "cusip": "047726302",
+        "valueUSD": "10459877",
+        "shares": 223645,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "2,4,8,11",
+        "votingAuthority": {
+            "sole": 223645,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Communication Services",
+        "industry": "Entertainment",
+        "gicsSectorCode": 50
+    },
+    {
+        "issuer": "BANK AMER CORP",
+        "titleOfClass": "COM",
+        "cusip": "060505104",
+        "valueUSD": "28641252185",
+        "shares": 605267375,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "1,2,3,4,5,6,7,8,11,14",
+        "votingAuthority": {
+            "sole": 605267375,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Financial Services",
+        "industry": "Banks - Diversified",
+        "gicsSectorCode": 40
+    },
+    {
+        "issuer": "CAPITAL ONE FINL CORP",
+        "titleOfClass": "COM",
+        "cusip": "14040H105",
+        "valueUSD": "1521234000",
+        "shares": 7150000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "2,4,5,11",
+        "votingAuthority": {
+            "sole": 7150000,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Financial Services",
+        "industry": "Credit Services",
+        "gicsSectorCode": 40
+    },
+    {
+        "issuer": "CHARTER COMMUNICATIONS INC N",
+        "titleOfClass": "CL A",
+        "cusip": "16119P108",
+        "valueUSD": "433699170",
+        "shares": 1060882,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 1060882,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Communication Services",
+        "industry": "Telecom Services",
+        "gicsSectorCode": 50
+    },
+    {
+        "issuer": "CHEVRON CORP NEW",
+        "titleOfClass": "COM",
+        "cusip": "166764100",
+        "valueUSD": "17478457567",
+        "shares": 122064792,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "2,4,5,6,7,8,9,11,14",
+        "votingAuthority": {
+            "sole": 122064792,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Energy",
+        "industry": "Oil & Gas Integrated",
+        "gicsSectorCode": 10
+    },
+    {
+        "issuer": "COCA COLA CO",
+        "titleOfClass": "COM",
+        "cusip": "191216100",
+        "valueUSD": "28300000000",
+        "shares": 400000000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "1,2,4,5,6,8,10,11,12,13",
+        "votingAuthority": {
+            "sole": 400000000,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Consumer Defensive",
+        "industry": "Beverages - Non-Alcoholic",
+        "gicsSectorCode": 30
+    },
+    {
+        "issuer": "CONSTELLATION BRANDS INC",
+        "titleOfClass": "CL A",
+        "cusip": "21036P108",
+        "valueUSD": "2179912000",
+        "shares": 13400000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 13400000,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Consumer Defensive",
+        "industry": "Beverages - Brewers",
+        "gicsSectorCode": 30
+    },
+    {
+        "issuer": "D R HORTON INC",
+        "titleOfClass": "COM",
+        "cusip": "23331A109",
+        "valueUSD": "191491322",
+        "shares": 1485350,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,11",
+        "votingAuthority": {
+            "sole": 1485350,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Consumer Cyclical",
+        "industry": "Residential Construction",
+        "gicsSectorCode": 25
+    },
+    {
+        "issuer": "DAVITA INC",
+        "titleOfClass": "COM",
+        "cusip": "23918K108",
+        "valueUSD": "4814317266",
+        "shares": 33796541,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 33796541,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Healthcare",
+        "industry": "Medical Care Facilities",
+        "gicsSectorCode": 35
+    },
+    {
+        "issuer": "DIAGEO P L C",
+        "titleOfClass": "SPON ADR NEW",
+        "cusip": "25243Q205",
+        "valueUSD": "22966310",
+        "shares": 227750,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,7",
+        "votingAuthority": {
+            "sole": 227750,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Consumer Defensive",
+        "industry": "Beverages - Wineries & Distilleries",
+        "gicsSectorCode": 30
+    },
+    {
+        "issuer": "DOMINOS PIZZA INC",
+        "titleOfClass": "COM",
+        "cusip": "25754A201",
+        "valueUSD": "1186820921",
+        "shares": 2633868,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 2633868,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Consumer Cyclical",
+        "industry": "Restaurants",
+        "gicsSectorCode": 25
+    },
+    {
+        "issuer": "HEICO CORP NEW",
+        "titleOfClass": "CL A",
+        "cusip": "422806208",
+        "valueUSD": "334980855",
+        "shares": 1294612,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 1294612,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Unknown",
+        "industry": null,
+        "gicsSectorCode": null
+    },
+    {
+        "issuer": "JEFFERIES FINL GROUP INC",
+        "titleOfClass": "COM",
+        "cusip": "47233W109",
+        "valueUSD": "23711287",
+        "shares": 433558,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,10",
+        "votingAuthority": {
+            "sole": 433558,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Financial Services",
+        "industry": "Capital Markets",
+        "gicsSectorCode": 40
+    },
+    {
+        "issuer": "KRAFT HEINZ CO",
+        "titleOfClass": "COM",
+        "cusip": "500754106",
+        "valueUSD": "8407891001",
+        "shares": 325634818,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4",
+        "votingAuthority": {
+            "sole": 325634818,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Consumer Defensive",
+        "industry": "Packaged Foods",
+        "gicsSectorCode": 30
+    },
+    {
+        "issuer": "KROGER CO",
+        "titleOfClass": "COM",
+        "cusip": "501044101",
+        "valueUSD": "3586500001",
+        "shares": 50000000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "1,2,4,11",
+        "votingAuthority": {
+            "sole": 50000000,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Consumer Defensive",
+        "industry": "Grocery Stores",
+        "gicsSectorCode": 30
+    },
+    {
+        "issuer": "LAMAR ADVERTISING CO NEW",
+        "titleOfClass": "CL A",
+        "cusip": "512816109",
+        "valueUSD": "141931370",
+        "shares": 1169507,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 1169507,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Real Estate",
+        "industry": "REIT - Specialty",
+        "gicsSectorCode": 60
+    },
+    {
+        "issuer": "LENNAR CORP",
+        "titleOfClass": "CL A",
+        "cusip": "526057104",
+        "valueUSD": "779689116",
+        "shares": 7048993,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,11",
+        "votingAuthority": {
+            "sole": 7048993,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Consumer Cyclical",
+        "industry": "Residential Construction",
+        "gicsSectorCode": 25
+    },
+    {
+        "issuer": "LENNAR CORP",
+        "titleOfClass": "CL B",
+        "cusip": "526057302",
+        "valueUSD": "19042883",
+        "shares": 180930,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,11",
+        "votingAuthority": {
+            "sole": 180930,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Unknown",
+        "industry": null,
+        "gicsSectorCode": null
+    },
+    {
+        "issuer": "LIBERTY MEDIA CORP DEL",
+        "titleOfClass": "COM LBTY LIV S C",
+        "cusip": "531229722",
+        "valueUSD": "886077366",
+        "shares": 10917661,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "2,4,8,10,11",
+        "votingAuthority": {
+            "sole": 10917661,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Communication Services",
+        "industry": "Entertainment",
+        "gicsSectorCode": 50
+    },
+    {
+        "issuer": "LIBERTY MEDIA CORP DEL",
+        "titleOfClass": "COM LBTY LIV S A",
+        "cusip": "531229748",
+        "valueUSD": "396334015",
+        "shares": 4986588,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,10,11",
+        "votingAuthority": {
+            "sole": 4986588,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Communication Services",
+        "industry": "Entertainment",
+        "gicsSectorCode": 50
+    },
+    {
+        "issuer": "LIBERTY MEDIA CORP DEL",
+        "titleOfClass": "COM SER C FRMLA",
+        "cusip": "531229854",
+        "valueUSD": "315438998",
+        "shares": 3018555,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "2,4,11",
+        "votingAuthority": {
+            "sole": 3018555,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Unknown",
+        "industry": null,
+        "gicsSectorCode": null
+    },
+    {
+        "issuer": "LOUISIANA PAC CORP",
+        "titleOfClass": "COM",
+        "cusip": "546347105",
+        "valueUSD": "487115550",
+        "shares": 5664793,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 5664793,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Industrials",
+        "industry": "Building Products & Equipment",
+        "gicsSectorCode": 20
+    },
+    {
+        "issuer": "MASTERCARD INC",
+        "titleOfClass": "CL A",
+        "cusip": "57636Q104",
+        "valueUSD": "2240256977",
+        "shares": 3986648,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 3986648,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Financial Services",
+        "industry": "Credit Services",
+        "gicsSectorCode": 40
+    },
+    {
+        "issuer": "MOODYS CORP",
+        "titleOfClass": "COM",
+        "cusip": "615369105",
+        "valueUSD": "12374113948",
+        "shares": 24669778,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "1,2,4,8,11",
+        "votingAuthority": {
+            "sole": 24669778,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Financial Services",
+        "industry": "Financial Data & Stock Exchanges",
+        "gicsSectorCode": 40
+    },
+    {
+        "issuer": "NVR INC",
+        "titleOfClass": "COM",
+        "cusip": "62944T105",
+        "valueUSD": "82069454",
+        "shares": 11112,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,5",
+        "votingAuthority": {
+            "sole": 11112,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Consumer Cyclical",
+        "industry": "Residential Construction",
+        "gicsSectorCode": 25
+    },
+    {
+        "issuer": "NUCOR CORP",
+        "titleOfClass": "COM",
+        "cusip": "670346105",
+        "valueUSD": "856792068",
+        "shares": 6614112,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,11",
+        "votingAuthority": {
+            "sole": 6614112,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Basic Materials",
+        "industry": "Steel",
+        "gicsSectorCode": 15
+    },
+    {
+        "issuer": "OCCIDENTAL PETE CORP",
+        "titleOfClass": "COM",
+        "cusip": "674599105",
+        "valueUSD": "11130189516",
+        "shares": 264941431,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,11",
+        "votingAuthority": {
+            "sole": 264941431,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Energy",
+        "industry": "Oil & Gas E&P",
+        "gicsSectorCode": 10
+    },
+    {
+        "issuer": "POOL CORP",
+        "titleOfClass": "COM",
+        "cusip": "73278L105",
+        "valueUSD": "1008195800",
+        "shares": 3458885,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 3458885,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Industrials",
+        "industry": "Industrial Distribution",
+        "gicsSectorCode": 20
+    },
+    {
+        "issuer": "SIRIUS XM HOLDINGS INC",
+        "titleOfClass": "COMMON STOCK",
+        "cusip": "829933100",
+        "valueUSD": "2751270614",
+        "shares": 119776692,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,10,11",
+        "votingAuthority": {
+            "sole": 119776692,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Communication Services",
+        "industry": "Entertainment",
+        "gicsSectorCode": 50
+    },
+    {
+        "issuer": "UNITEDHEALTH GROUP INC",
+        "titleOfClass": "COM",
+        "cusip": "91324P102",
+        "valueUSD": "1572192781",
+        "shares": 5039564,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "2,4,10,11",
+        "votingAuthority": {
+            "sole": 5039564,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Healthcare",
+        "industry": "Healthcare Plans",
+        "gicsSectorCode": 35
+    },
+    {
+        "issuer": "VERISIGN INC",
+        "titleOfClass": "COM",
+        "cusip": "92343E102",
+        "valueUSD": "3838117344",
+        "shares": 13289880,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 13289880,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Technology",
+        "industry": "Software - Infrastructure",
+        "gicsSectorCode": 45
+    },
+    {
+        "issuer": "VISA INC",
+        "titleOfClass": "COM CL A",
+        "cusip": "92826C839",
+        "valueUSD": "2946013173",
+        "shares": 8297460,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 8297460,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Financial Services",
+        "industry": "Credit Services",
+        "gicsSectorCode": 40
+    },
+    {
+        "issuer": "ALLEGION PLC",
+        "titleOfClass": "ORD SHS",
+        "cusip": "G0176J109",
+        "valueUSD": "112432768",
+        "shares": 780133,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 780133,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Industrials",
+        "industry": "Security & Protection Services",
+        "gicsSectorCode": 20
+    },
+    {
+        "issuer": "AON PLC",
+        "titleOfClass": "SHS CL A",
+        "cusip": "G0403H108",
+        "valueUSD": "1462716000",
+        "shares": 4100000,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "2,4,11",
+        "votingAuthority": {
+            "sole": 4100000,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Financial Services",
+        "industry": "Insurance Brokers",
+        "gicsSectorCode": 40
+    },
+    {
+        "issuer": "LIBERTY LATIN AMERICA LTD",
+        "titleOfClass": "COM CL A",
+        "cusip": "G9001E102",
+        "valueUSD": "16047832",
+        "shares": 2630792,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 2630792,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Communication Services",
+        "industry": "Telecom Services",
+        "gicsSectorCode": 50
+    },
+    {
+        "issuer": "LIBERTY LATIN AMERICA LTD",
+        "titleOfClass": "COM CL C",
+        "cusip": "G9001E128",
+        "valueUSD": "7986604",
+        "shares": 1284020,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,8,11",
+        "votingAuthority": {
+            "sole": 1284020,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Communication Services",
+        "industry": "Telecom Services",
+        "gicsSectorCode": 50
+    },
+    {
+        "issuer": "CHUBB LIMITED",
+        "titleOfClass": "COM",
+        "cusip": "H1467J104",
+        "valueUSD": "7832227900",
+        "shares": 27033784,
+        "sharesType": "SH",
+        "investmentDiscretion": "DFND",
+        "otherManager": "4,11",
+        "votingAuthority": {
+            "sole": 27033784,
+            "shared": 0,
+            "none": 0
+        },
+        "sector": "Financial Services",
+        "industry": "Insurance - Property & Casualty",
+        "gicsSectorCode": 40
+    }
+]

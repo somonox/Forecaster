@@ -1,0 +1,2 @@
+# GDELT query log
+[Window 1 | Batch 1] (theme:ECON_INTEREST_RATES OR theme:ECON_MONETARY_POLICY OR theme:ECON_CENTRAL_BANK OR theme:ECON_INFLATION) ("Federal Reserve" OR "ECB") sourcelang:english sourcecountry:US
