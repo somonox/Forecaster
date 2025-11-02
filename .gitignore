@@ -1,0 +1,5 @@
+.venv
+news_dumps.json
+__pycache__
+.fallback_cache
+queries.log

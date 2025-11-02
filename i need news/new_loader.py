@@ -63,7 +63,12 @@ def extract_main_text(html_str: str, url: Optional[str] = None) -> Optional[str]
 # -------------------------------------------------
 # 비동기 로더 (httpx)
 # -------------------------------------------------
-DEFAULT_UA = "somonox"  # SEC/GDELT 등은 User-Agent 명시 권장
+# 상단 import/유틸/추출 로직은 그대로 두세요.
+
+# -------------------------------------------------
+# 비동기 로더 (httpx)
+# -------------------------------------------------
+DEFAULT_UA = "somonox"  # 그대로
 
 class AsyncNewsLoader:
     def __init__(
@@ -85,10 +90,10 @@ class AsyncNewsLoader:
         self.ua = ua
 
     def __get_news_links(self) -> List[Dict[str, str]]:
-        """GDELT에서 기사 목록을 받아 URL/제목/도메인 등 최소 메타를 추출(동기)."""
+        # (원본 그대로)
         f = Filters(
             keyword=self.keyword,
-            start_date=self.start_date,  # 'YYYY-MM-DD' 또는 datetime
+            start_date=self.start_date,
             end_date=self.end_date,
             domain=self.domains,
             country=self.country,
@@ -121,23 +126,34 @@ class AsyncNewsLoader:
         max_retries: int = 3,
         backoff_base: float = 1.0,
     ) -> Dict[str, Optional[str]]:
-        """단일 URL 비동기 요청 + 본문 추출. 재시도/백오프 포함."""
+        # (원본 그대로) — 반환 딕셔너리 키만 사용
+
         print(f"Fetching: {link}")
         for attempt in range(max_retries):
             try:
                 r = await client.get(link, timeout=timeout)
                 if r.status_code != 200:
-                    # 4xx/5xx는 재시도 가치가 있는 5xx만 백오프
                     if 500 <= r.status_code < 600 and attempt < max_retries - 1:
                         await asyncio.sleep(backoff_base * (2 ** attempt))
                         continue
-                    return {"url": link, "raw_html": None, "clean_text": None, "title": None, "domain": urlparse(link).netloc}
+                    return {
+                        "url": link,
+                        "raw_html": None,
+                        "clean_text": None,
+                        "title": None,
+                        "domain": urlparse(link).netloc
+                    }
 
                 ct = (r.headers.get("Content-Type") or "").lower()
                 text = r.text
                 if "html" not in ct and not text.lstrip().startswith("<"):
-                    # JSON 등 비-HTML 응답
-                    return {"url": link, "raw_html": text, "clean_text": None, "title": None, "domain": urlparse(link).netloc}
+                    return {
+                        "url": link,
+                        "raw_html": text,
+                        "clean_text": None,
+                        "title": None,
+                        "domain": urlparse(link).netloc
+                    }
 
                 clean = extract_main_text(text, url=link)
 
@@ -151,7 +167,7 @@ class AsyncNewsLoader:
 
                 return {
                     "url": link,
-                    "raw_html": text,
+                    # "raw_html": text,  # 그대로 비포함
                     "clean_text": clean,
                     "title": title,
                     "domain": urlparse(link).netloc,
@@ -168,7 +184,6 @@ class AsyncNewsLoader:
                     continue
                 return {"url": link, "raw_html": None, "clean_text": None, "title": None, "domain": urlparse(link).netloc}
             except Exception:
-                # 알 수 없는 예외: 마지막 시도 아니면 백오프 후 재시도
                 if attempt < max_retries - 1:
                     await asyncio.sleep(backoff_base * (2 ** attempt))
                     continue
@@ -178,16 +193,16 @@ class AsyncNewsLoader:
         self,
         max_concurrency: int = 10,
         timeout: float = 15.0,
-        return_dataframe: bool = True,
+        return_dataframe: bool = False,  # ✅ 기본: 배열(객체 리스트) 반환
     ):
         """
         1) GDELT에서 링크 수집(동기)
         2) httpx.AsyncClient로 병렬 크롤링
-        3) list[dict] 또는 pandas.DataFrame 반환
+        3) list[dict] (기본) 또는 pandas.DataFrame 반환
         """
         items = self.__get_news_links()
         if not items:
-            return pd.DataFrame([]) if return_dataframe else []
+            return [] if not return_dataframe else pd.DataFrame([])
 
         urls = [it["url"] for it in items]
 
@@ -207,27 +222,33 @@ class AsyncNewsLoader:
 
             results = await asyncio.gather(*[_bounded_fetch(u) for u in urls])
 
-        # 메타 병합
-        merged: List[Dict[str, Optional[str]]] = []
+        # 메타 병합 → 기사 1개 = 객체 1개
         meta_map = {it["url"]: it for it in items}
+        merged: List[Dict[str, Optional[str]]] = []
         for rec in results:
             base = meta_map.get(rec["url"], {})
-            merged.append({
+            clean_text = rec.get("clean_text")
+            if clean_text is None:
+                continue  # 본문 없으면 스킵
+            obj = {
                 "url": rec.get("url"),
                 "domain": rec.get("domain") or base.get("domain"),
                 "title": rec.get("title") or base.get("title"),
                 "seendate": base.get("seendate"),
                 "source": base.get("source"),
-                "raw_html": rec.get("raw_html"),
-                "clean_text": rec.get("clean_text"),
-            })
+                # "raw_html": rec.get("raw_html"),  # 의도대로 비포함
+                "clean_text": clean_text,
+                "clean_len": len(clean_text) if isinstance(clean_text, str) else 0,
+            }
+            merged.append(obj)
 
         if return_dataframe:
-            df = pd.DataFrame(merged)
-            df["clean_len"] = df["clean_text"].apply(lambda x: len(x) if isinstance(x, str) else 0)
-            return df
+            # 필요시만 DF를 원하면 변환
+            return pd.DataFrame(merged)
+
+        # ✅ 기본: 객체 리스트 반환 (JSON 직렬화 친화적)
         return merged
 
-    # 편의를 위한 동기 래퍼
+    # 동기 래퍼
     def load_news(self, **kwargs):
         return asyncio.run(self.load_news_async(**kwargs))
