@@ -98,71 +98,35 @@ FINANCIALS_DOMAINS = [
 ]
 
 # (옵션) 전체 합치기 (중복 제거 + 정렬)
-ALL_DOMAINS = sorted(set(
-    ALL_SECTOR_DOMAINS
-    + ENERGY_DOMAINS + UTILITIES_DOMAINS
-    + MATERIALS_DOMAINS + CHEMICALS_DOMAINS + MINING_DOMAINS
-    + INDUSTRIALS_DOMAINS + LOGISTICS_DOMAINS + MANUFACTURING_DOMAINS
-    + CONSUMER_DISCRETIONARY_DOMAINS + CONSUMER_STAPLES_DOMAINS
-    + MEDIA_DOMAINS + TELECOM_DOMAINS
-    + TECHNOLOGY_DOMAINS
-    + REAL_ESTATE_DOMAINS
-    + FINANCIALS_DOMAINS
-))
+ALL_DOMAINS = {
+                "finance": [ALL_SECTOR_DOMAINS, ALL_SECTOR_DOMAINS2, FINANCIALS_DOMAINS],
+                "energy": [ENERGY_DOMAINS],
+                "utilities": [UTILITIES_DOMAINS],
+                "materials": [MATERIALS_DOMAINS],
+                "chemicals": [CHEMICALS_DOMAINS],
+                "mining": [MINING_DOMAINS],
+                "industrials": [INDUSTRIALS_DOMAINS],
+                "logistics": [LOGISTICS_DOMAINS],
+                "manufacturing": [MANUFACTURING_DOMAINS],
+                "consumer": [CONSUMER_DISCRETIONARY_DOMAINS, CONSUMER_STAPLES_DOMAINS],
+                "communication": [TELECOM_DOMAINS],
+                "media": [MEDIA_DOMAINS],
+                "technology": [TECHNOLOGY_DOMAINS],
+                "estate": [REAL_ESTATE_DOMAINS]
+               }
+
+
 
 news_dumps = open("news_dumps.json", "w", encoding="utf-8")
+final_list = {}
 
-
-news_loader = AsyncNewsLoader(ALL_SECTOR_DOMAINS, keyword="finance", start_date="2025-03-31", end_date="2025-06-30")
-data = news_loader.load_news()
-news_dumps.write(json.dumps(data, indent=4))
-news_loader = AsyncNewsLoader(ALL_SECTOR_DOMAINS2, keyword="finance", start_date="2025-03-31", end_date="2025-06-30")
-data = news_loader.load_news()
-news_dumps.write(json.dumps(data, indent=4))
-news_loader = AsyncNewsLoader(ENERGY_DOMAINS, keyword="energy", start_date="2025-03-31", end_date="2025-06-30")
-data = news_loader.load_news()
-news_dumps.write(json.dumps(data, indent=4))
-news_loader = AsyncNewsLoader(UTILITIES_DOMAINS, keyword="utilities", start_date="2025-03-31", end_date="2025-06-30")
-data = news_loader.load_news()
-news_dumps.write(json.dumps(data, indent=4))
-news_loader = AsyncNewsLoader(MATERIALS_DOMAINS, keyword="materials", start_date="2025-03-31", end_date="2025-06-30")
-data = news_loader.load_news()
-news_dumps.write(json.dumps(data, indent=4))
-news_loader = AsyncNewsLoader(CHEMICALS_DOMAINS, keyword="chemicals", start_date="2025-03-31", end_date="2025-06-30")
-data = news_loader.load_news()
-news_dumps.write(json.dumps(data, indent=4))
-news_loader = AsyncNewsLoader(MINING_DOMAINS, keyword="mining", start_date="2025-03-31", end_date="2025-06-30")
-data = news_loader.load_news()
-news_dumps.write(json.dumps(data, indent=4))
-news_loader = AsyncNewsLoader(INDUSTRIALS_DOMAINS, keyword="industrials", start_date="2025-03-31", end_date="2025-06-30")
-data = news_loader.load_news()
-news_dumps.write(json.dumps(data, indent=4))
-news_loader = AsyncNewsLoader(LOGISTICS_DOMAINS, keyword="logistics", start_date="2025-03-31", end_date="2025-06-30")
-data = news_loader.load_news()
-news_dumps.write(json.dumps(data, indent=4))
-news_loader = AsyncNewsLoader(MANUFACTURING_DOMAINS, keyword="manufacturing", start_date="2025-03-31", end_date="2025-06-30")
-data = news_loader.load_news()
-news_dumps.write(json.dumps(data, indent=4))
-news_loader = AsyncNewsLoader(CONSUMER_DISCRETIONARY_DOMAINS, keyword="consumer", start_date="2025-03-31", end_date="2025-06-30")
-data = news_loader.load_news()
-news_dumps.write(json.dumps(data, indent=4))
-news_loader = AsyncNewsLoader(CONSUMER_STAPLES_DOMAINS, keyword="consumer", start_date="2025-03-31", end_date="2025-06-30")
-data = news_loader.load_news()
-news_dumps.write(json.dumps(data, indent=4))
-news_loader = AsyncNewsLoader(MEDIA_DOMAINS, keyword="media", start_date="2025-03-31", end_date="2025-06-30")
-data = news_loader.load_news()
-news_dumps.write(json.dumps(data, indent=4))
-news_loader = AsyncNewsLoader(TELECOM_DOMAINS, keyword="telecom", start_date="2025-03-31", end_date="2025-06-30")
-data = news_loader.load_news()
-news_dumps.write(json.dumps(data, indent=4))
-news_loader = AsyncNewsLoader(TECHNOLOGY_DOMAINS, keyword="technology", start_date="2025-03-31", end_date="2025-06-30")
-data = news_loader.load_news()
-news_dumps.write(json.dumps(data, indent=4))
-news_loader = AsyncNewsLoader(REAL_ESTATE_DOMAINS, keyword="estate", start_date="2025-03-31", end_date="2025-06-30")
-data = news_loader.load_news()
-news_dumps.write(json.dumps(data, indent=4))
-news_loader = AsyncNewsLoader(FINANCIALS_DOMAINS, keyword="finance", start_date="2025-03-31", end_date="2025-06-30")
-data = news_loader.load_news()
-news_dumps.write(json.dumps(data, indent=4))
-
+for i, j in ALL_DOMAINS.items():
+    semifinal_list = []
+    for k in j:
+        print(f"Loading news for sector: {i} from domain: {k}")
+        news_loader = AsyncNewsLoader(k, keyword=i, start_date="2025-03-31", end_date="2025-06-30")
+        data = news_loader.load_news()
+        semifinal_list.append(data)
+    final_list[i] = semifinal_list
+json.dump(final_list, news_dumps, indent=4)
 news_dumps.close()
