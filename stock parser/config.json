@@ -1,0 +1,11 @@
+{
+  "tickers": ["AAPL", "MSFT", "GOOGL"],
+  "start": "2025-03-31",
+  "end": "2025-06-30",
+  "interval": "1d",
+  "period": null,
+  "auto_adjust": true,
+  "wide_format": true,
+  "output_csv": "history.csv",
+  "fields": ["Open", "High", "Low", "Close", "Adj Close", "Volume"]
+}
