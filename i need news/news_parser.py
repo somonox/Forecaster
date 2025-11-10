@@ -119,14 +119,46 @@ ALL_DOMAINS = {
 
 news_dumps = open("news_dumps.json", "w", encoding="utf-8")
 final_list = {}
+manyhours = [
+("2025-05-31", "2025-06-30"),
+("2025-04-28", "2025-05-30"),
+("2025-03-31", "2025-04-30"),
+("2025-02-28", "2025-03-30"),
+("2025-01-31", "2025-02-27"),
+("2024-12-31", "2025-01-30"),
+("2024-11-30", "2024-12-30"),
+("2024-10-31", "2024-11-29"),
+("2024-09-30", "2024-10-31"),
+("2024-08-31", "2024-09-30"),
+("2024-07-31", "2024-08-31"),
+("2024-06-30", "2024-07-31"),
+("2024-05-31", "2024-06-30"),
+("2024-04-30", "2024-05-30"),
+("2024-03-31", "2024-04-30"),
+("2024-02-29", "2024-03-30"),
+("2024-01-31", "2024-02-28"),
+("2023-12-31", "2024-01-30"),
+("2023-11-30", "2023-12-30"),
+("2023-10-31", "2023-11-29"),
+("2023-09-30", "2023-10-31"),
+("2023-08-31", "2023-09-30"),
+("2023-07-31", "2023-08-31"),
+("2023-06-30", "2023-07-31"),
+("2023-05-31", "2023-06-30"),
+("2023-04-30", "2023-05-30"),
+("2023-03-31", "2023-04-30"),
+("2023-02-28", "2023-03-30"),
+("2023-01-31", "2023-02-27"),
+]
 
 for i, j in ALL_DOMAINS.items():
     semifinal_list = []
     for k in j:
-        print(f"Loading news for sector: {i} from domain: {k}")
-        news_loader = AsyncNewsLoader(k, keyword=i, start_date="2025-03-31", end_date="2025-06-30")
-        data = news_loader.load_news()
-        semifinal_list.append(data)
+        for start_date, end_date in manyhours:
+            print(f"Loading news for sector: {i} from domain: {k}")
+            news_loader = AsyncNewsLoader(k, keyword=i, start_date=start_date, end_date=end_date)
+            data = news_loader.load_news()
+            semifinal_list.append(data)
     final_list[i] = semifinal_list
 json.dump(final_list, news_dumps, indent=4)
 news_dumps.close()
